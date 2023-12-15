@@ -1,0 +1,108 @@
+.busSearch {
+  background-image: url("../../images/vecteezy_people-on-bus-stop-father-with-little-daughter_16263385.jpg");
+
+  height: 80vh;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.busSearchForm {
+  display: flex;
+  background-color: white;
+  padding: 0.7rem;
+  border-radius: 1rem;
+}
+.MuiInputBase-input {
+  border: none !important;
+}
+.from {
+  margin-top: 0.4rem;
+}
+.to {
+  margin-top: 0.4rem;
+  margin-left: 0.1rem;
+}
+.datePicker {
+  margin-left: 0.1rem;
+}
+
+.achievement {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.review {
+  margin-top: 1.5rem;
+}
+.review h2 {
+  color: #3f51b5;
+}
+
+.customerReview {
+  margin-bottom: 1rem;
+  padding: 1.1rem;
+  background-color: #3f51b5;
+}
+
+.childCustomerReview {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.footer {
+  background-color: #3f51b5;
+  color: white;
+  display: flex;
+}
+.firstHalf {
+  padding-left: 3rem;
+  width: 50vw;
+  text-align: start;
+}
+.firstHalf p {
+  width: 40%;
+}
+
+.secondHalf {
+  width: 50vw;
+}
+
+@media screen and (min-width: 768px) {
+  .busSearch {
+    height: 60vh;
+  }
+}
+
+/* For smaller screens (phones) */
+@media screen and (max-width: 767px) {
+  .busSearch {
+    height: 50vh;
+    flex-direction: column;
+  }
+  .busSearchForm {
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+  .homeLoadingButton {
+    margin-top: 1rem !important;
+    width: 30vw;
+  }
+  .firstHalf,
+  .secondHalf {
+    width: 100%;
+    padding-left: 1rem;
+  }
+
+  .firstHalf p {
+    width: 100%;
+  }
+  .datePicker {
+    margin-top: 1rem;
+  }
+}
