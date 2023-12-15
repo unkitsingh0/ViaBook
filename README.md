@@ -93,7 +93,7 @@ Before running the project, make sure you have the following prerequisites insta
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/unkitsingh0/Trips
+   git clone https://github.com/unkitsingh0/ViaBook
     cd your-project
     cd client
     npm install
